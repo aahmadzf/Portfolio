@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------- Navbar ---------------- */
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  padding: 30px 60px;
+  position: fixed;
+
+}
+
+.logo {
+  font-size: 40px;
+  float: left;
+  padding-right: 35rem;
+  color: #000;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 3px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+nav ul li a:hover {
+  padding: 15px 10px;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+/* -----------------Content---------------- */
+section {
+  padding: 100px;
+  text-align: center;
+}
+
+/* Home */
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  color: #fff;
+}
+
+.home-start {
+  text-align: left;
+  margin: 150px 10px;
+  font-size: 5vh;
+}
+
+.home h3 {
+  font-size: 3vh;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px 50px;
+  color: #000;
+}
+
+
+.buttons:hover {
+  background-color: lightblue;
+  transition: all 0.5s;
+  color: #000;
+  box-shadow: -3px -3px 1px 1px rgb(184, 208, 216, 0.2);
+  border: 1px solid #000;
+}
+
+/* about Content */
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+  margin: auto;
+  color: #000;
+}
+
+.about-content {
+  font-size: 20px;
+}
+
+.about-content h2 {
+  margin-bottom: 50px;
+}
+
+.content1 h3 {
+  padding: 10px 0 20px 0;
+}
+
+.content2 h3 {
+  padding: 10px 0 20px 0;
+}
+
+.content1 {
+  width: 50%;
+  float: left;
+  display: inline;
+  padding: 0px 20px;
+}
+
+.content1 img {
+  border: 1px solid lightblue;
+  border-radius: 20px;
+}
+
+.content1 p {
+  margin: 0 100px;
+
+}
+
+.content2 {
+  width: 50%;
+  display: inline;
+  float: left;
+  padding: 20px;
+}
+
+/* ------Profile------- */
+.profile {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.card img {
+  border-radius: 20%;
+  float: left;
+}
+
+.card-name {
+  margin: 100px 0 30px 50vh;
+  padding: 20px 10px;
+}
+
+/* --------Skill-------- */
+.skill {
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.skill-content img {
+  margin: 20vh;
+}
+
+/* -------Contact-------- */
+.contact {
+  height: 101vh;
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-form {
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.contact-form p {
+  margin-right: 80vh;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+input {
+  margin-right: 50vh;
+  padding: 10px 80px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+textarea {
+  margin-right: 50vh;
+  padding: 50px 150px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.input-submit {
+  padding: 10px 10px;
+  border: 1px solid #45a049;
+  background-color: #45a049;
+  margin-right: 75vh;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-submit:hover {
+  background-color: #367c39;
+  border: 1px solid #367c39;
+}
+
+
+.footer {
+  margin-left: 20vh;
+  float: right;
+}
+
+.footer ion-icon {
+  margin: 15px 15px 0 15px;
+  padding: 10px;
+}
+
+.whatsapp {
+  background-color: rgb(24, 163, 24);
+  border-radius: 50%;
+  color: #fff;
+}
+
+.facebook {
+  background-color: #3b5998;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.instagram {
+  background-color: #be408e;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.whatsapp:hover {
+  background-color: rgb(18, 121, 18);
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-color: #2d4475;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  background-color: #7c295c;
+  cursor: pointer;
+}
